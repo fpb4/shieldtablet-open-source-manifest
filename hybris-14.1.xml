@@ -8,13 +8,13 @@
   <project name="mer-hybris/hybris-boot" path="hybris/hybris-boot" revision="master"/>
   <project name="mer-hybris/mer-kernel-check" path="hybris/mer-kernel-check" revision="master"/>
   <project name="sailfishos/droidmedia" path="external/droidmedia" revision="master"/>
-  <project groups="pdk" name="mer-hybris/android_bionic" path="bionic" revision="hybris-14.1"/>
-  <project groups="pdk,tradefed" name="mer-hybris/android_build" path="build" revision="hybris-14.1">
+  <project name="mer-hybris/android_bionic" path="bionic" revision="hybris-14.1"/>
+  <project name="mer-hybris/android_build" path="build" revision="hybris-14.1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project groups="pdk" name="mer-hybris/android_frameworks_av" path="frameworks/av" revision="hybris-14.1"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="mer-hybris/android_frameworks_base" path="frameworks/base" revision="hybris-14.1"/>
-  <project groups="pdk" name="mer-hybris/android_frameworks_native" path="frameworks/native" revision="hybris-14.1"/>
-  <project groups="pdk" name="mer-hybris/android_hardware_libhardware" path="hardware/libhardware" revision="hybris-14.1"/>
-  <project groups="pdk" name="mer-hybris/android_system_core" path="system/core" revision="hybris-14.1"/>
+  <project name="mer-hybris/android_frameworks_av" path="frameworks/av" revision="hybris-14.1"/>
+  <project name="mer-hybris/android_frameworks_base" path="frameworks/base" revision="hybris-14.1"/>
+  <project name="mer-hybris/android_frameworks_native" path="frameworks/native" revision="hybris-14.1"/>
+  <project name="mer-hybris/android_hardware_libhardware" path="hardware/libhardware" revision="hybris-14.1"/>
+  <project name="mer-hybris/android_system_core" path="system/core" revision="hybris-14.1"/>
 </manifest>
