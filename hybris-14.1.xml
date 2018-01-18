@@ -18,7 +18,7 @@
   <project name="fpb4/android_frameworks_base" path="frameworks/base" revision="hybris-14.1"/>
   <project name="fpb4/android_frameworks_native" path="frameworks/native" revision="hybris-14.1"/>
   <project name="fpb4/android_hardware_libhardware" path="hardware/libhardware" revision="hybris-14.1"/>
-  <project name="fpb4/android_system_core" path="system/core" revision="hybris-14.1"/>
+  <!--<project name="fpb4/android_system_core" path="system/core" revision="hybris-14.1"/>->
   
   <project name="fpb4/droidmedia" path="external/droidmedia" revision="master"/>
 </manifest>
