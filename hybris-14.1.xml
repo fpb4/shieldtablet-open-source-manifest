@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/" name="github"/>
-  <!--<remote fetch="ssh://git@github.com" name="private"/>-->
+  <remote fetch="ssh://git@github.com" name="private"/>
   
   <project name="mer-hybris/android_external_busybox" path="external/busybox" revision="hybris-13.0"/>
   <project name="mer-hybris/audioflingerglue" path="external/audioflingerglue" revision="master"/>
   <project name="mer-hybris/hybris-boot" path="hybris/hybris-boot" revision="master"/>
   <project name="mer-hybris/mer-kernel-check" path="hybris/mer-kernel-check" revision="master"/>
-  <project name="sailfishos/droidmedia" path="external/droidmedia" revision="master"/>
-  <project name="https://github.com/mer-hybris/android_bionic" path="bionic" revision="hybris-14.1"/>
+  
+  <project name="mer-hybris/android_bionic" path="bionic" revision="hybris-14.1"/>
   <project name="mer-hybris/android_build" path="build" revision="hybris-14.1">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
@@ -17,4 +17,6 @@
   <project name="mer-hybris/android_frameworks_native" path="frameworks/native" revision="hybris-14.1"/>
   <project name="mer-hybris/android_hardware_libhardware" path="hardware/libhardware" revision="hybris-14.1"/>
   <project name="mer-hybris/android_system_core" path="system/core" revision="hybris-14.1"/>
+  
+  <project name="sailfishos/droidmedia" path="external/droidmedia" revision="master"/>
 </manifest>
