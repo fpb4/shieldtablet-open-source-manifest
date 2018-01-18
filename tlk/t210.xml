@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="android-framework.xml" />
+  <include name="nv-common.xml" />
+  <project path="vendor/nvidia/licensed-binaries" name="tegra/prebuilts-licensed-binary-tlk-t210" />
+</manifest>
+

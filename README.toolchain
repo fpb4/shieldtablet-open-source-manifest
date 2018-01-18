@@ -1,0 +1,17 @@
+Welcome to the Android Toolchain open source release.
+
+In this README, you will find sync instructions for android toolchain repositories.
+
+========================
+HowTo Sync from nv-tegra:
+========================
+
+Syncing this release requires git and the repo tool from Google:
+http://source.android.com/source/downloading.html#installing-repo
+
+mkdir ~/android-toolchain
+cd ~/android-toolchain
+repo init -u git://nv-tegra.nvidia.com/android/toolchain/manifest.git -b master -m android-toolchain.xml
+repo sync -j5
+
+========================

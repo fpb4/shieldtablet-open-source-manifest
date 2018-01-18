@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="android-framework.xml" />
+  <include name="nv-common.xml" />
+  <include name="hybris-14.1.xml" />
+  <project path="vendor/nvidia/licensed-binaries" name="tegra/prebuilts-licensed-binary-tlk-shieldtablet" />
+</manifest>
+
