@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com/" name="github2"/>
+  <remote fetch="https://github.com/" name="github"/>
   <!--<remote fetch="ssh://git@github.com" name="private"/>-->
   
   <project name="mer-hybris/android_external_busybox" path="external/busybox" revision="hybris-13.0"/>
