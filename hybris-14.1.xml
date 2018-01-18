@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://android.googlesource.com" name="aosp" review="android-review.googlesource.com" revision="refs/tags/android-7.1.2_r29"/>
-  <remote fetch=".." name="github" review="review.lineageos.org"/>
+
   <remote fetch="https://github.com/" name="github2"/>
   <remote fetch="ssh://git@github.com" name="private"/>
-  
-  <!--<default remote="github" revision="refs/heads/cm-14.1" sync-c="true" sync-j="4"/>-->
   
   <project name="mer-hybris/android_external_busybox" path="external/busybox" revision="hybris-13.0"/>
   <project name="mer-hybris/audioflingerglue" path="external/audioflingerglue" revision="master"/>
