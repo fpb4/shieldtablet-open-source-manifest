@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="origin"
-           fetch="https://nv-tegra.nvidia.com"
+           fetch="https://nv-tegra.nvidia.com/gitweb/?p="
            review="git-master.nvidia.com/r" />
 
   <default revision="rel-24-uda-r1.2-partner"
